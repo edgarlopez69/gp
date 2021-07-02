@@ -1,0 +1,270 @@
+/*  Documento de estilos pricipales */
+/*    Fuentes personalizadas */
+
+
+
+/*  Estilos globales */
+
+.pd {
+    margin: 2.5%;
+}
+
+h1#titulo_principal {
+    font-family: Arboria;
+    font-size: 4vw;
+    font-weight: bold;
+    color: var(--borCommon);
+    width: 45%;
+    float: left;
+}
+
+input#buscar {
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 1.5vw;
+    font-family: Arboria;
+    color: #D91E62;
+    background-image: url('../../assets/image/global/lupa.png');
+    background-repeat: no-repeat;
+    text-indent: 30px;
+    background-size: 7.5%;
+    background-position: 1%;
+    width: 20%;
+    float: left;
+    margin-left: 30%;
+    margin-top: 1.5%;
+    background-color: #F7F7F7;
+}
+
+.top-pd {overflow: auto;}
+
+input#buscar::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #D91E62;
+  opacity: 1; /* Firefox */
+}
+
+input#buscar:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #D91E62;
+}
+
+input#buscar::-ms-input-placeholder { /* Microsoft Edge */
+  color: #D91E62;
+}
+
+.box-pd {
+    margin-top: 5%;
+    border-radius: 20px;
+    width: 95%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    box-shadow: 0px 0px 2.5px #000000;
+}
+
+.pdp-picture img {
+  width: 100%;
+  height: auto;
+  transition: transform .2s;
+  cursor: pointer;
+}
+
+.pd-picture {
+  width: 50%;
+  float: left;
+}
+
+div#ProductSlider {
+    margin: 2.5%;
+    border-radius: 20px;
+}
+
+.pd-content {
+    width: 45%;
+    float: left;
+    margin: 2.5%;
+    border-radius: 20px;
+    background-color: #F7F7F7;
+    padding: 1.5%;
+}
+
+.footer {
+    clear: both;
+}
+
+.pdp-picture img:hover {
+    transform: scale(1.05);
+}
+
+.box-pd {
+    overflow: auto;
+}
+
+p.pdc-titulo {
+    font-family: Arboria;
+    font-size: 1.5vw;
+    color: var(--borCommon);
+    font-weight: bold;
+}
+
+p.existencia {
+    float: left;
+    font-size: 1.25vw;
+    font-family: Arboria;
+    width: 60%;
+}
+
+p.n-existencia {
+    font-family: Arboria;
+    font-size: 1.25vw;
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.line-1 {
+    overflow: auto;
+    clear: both;
+}
+
+.line-2 {
+    overflow: auto;
+    clear: both;
+}
+
+.line-3 {
+    overflow: auto;
+    clear: both;
+}
+
+.line-4 {
+    overflow: auto;
+    clear: both;
+    margin-top: 5%;
+}
+
+.line-5 {
+    overflow: auto;
+    clear: both;
+    margin-top: 2.5%;
+}
+
+p.n-precio {
+    font-family: Arboria;
+    font-size: 1.25vw;
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+select#tobuy {
+    font-family: Arboria;
+    font-size: 1.25vw;
+    float: left;
+    width: 25%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+p.cantidad {
+    float: left;
+    font-size: 1.25vw;
+    font-family: Arboria;
+    width: 60%;
+}
+
+p.precio {
+    float: left;
+    font-size: 1.25vw;
+    font-family: Arboria;
+    width: 60%;
+}
+
+p.descripcion {min-height: 10vh;font-size: 1.25vw;font-family: Arboria;}
+
+.subline-1 {
+    margin-left: 50%;
+    float: left;
+}
+
+.subline-2 {
+    width: 80%;
+    float: left;
+    margin-left: 20%;
+}
+
+.product_addtocart {
+    width: 45%;
+    margin-left: 2.5%;
+    background-color: var(--borCommon);
+    border-radius: 20px;
+    font-size: 1.25vw;
+    color: white;
+    border-color: var(--borCommon);
+    float: left;
+}
+
+.product_buynow {
+    width: 45%;
+    margin-left: 2.5%;
+    border-radius: 20px;
+    font-size: 1.25vw;
+    color: white;
+    padding-top: 1.75%;
+    padding-bottom: 1.75%;
+}
+
+.cart_img img {
+    width: 15%;
+}
+
+.product_buynow:hover{
+    background-color: var(--borCommon);
+    border-color: var(--borCommon);
+}
+
+
+
+/* Desktop */
+
+@media screen and (min-width: 1025px){
+
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    p.descripcion {min-height: 5vh;}    
+    div#ProductSlider {
+        margin-top: 10%;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 767px){
+    p.descripcion {min-height: 2.5vh;}
+    div#ProductSlider {
+        margin-top: 20%;
+    }
+
+    select#tobuy
+    {
+        padding: 0;
+    }
+
+    .subline-2 {
+        width: 100%;
+        float: left;
+        margin-left: 0%;
+    }
+    .product_addtocart {
+        margin-top: 3px;
+
+    }
+    input#buscar {
+    font-size: 4.5vw;
+    width: 45%;
+    margin-left: 10%;
+    }
+}

@@ -1,0 +1,28 @@
+.support--section {
+  padding: 15px 0;
+
+  border-bottom: 1px solid lightgray;
+}
+.support--text {
+  margin: 0 auto;
+}
+.support--section .support--section__img {
+  text-align: right;
+  margin: 0 auto;
+}
+.support--section .support--section__img img {
+  width: 80%;
+}
+
+.aprende-card {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+  .support--section .support--section__img {
+    text-align: center;
+  }
+  .support--text {
+    padding: 10px 15px;
+  }
+}

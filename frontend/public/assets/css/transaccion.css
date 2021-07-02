@@ -1,0 +1,10 @@
+
+.title h1
+{
+	color: var(--borCommon); text-align: center;
+}
+
+.content
+{
+	text-align: center;
+}

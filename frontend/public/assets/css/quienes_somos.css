@@ -1,0 +1,74 @@
+/*  Documento de estilos pricipales */
+/*    Fuentes personalizadas */
+
+
+
+/*  Estilos globales */
+
+p.waw-titulo {
+    margin-left: 2.5%;
+    margin-top: 5%;
+    font-family: Arboria;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #DA1E62;
+}
+
+span.waw-fiusha {
+    color: white;
+    background-color: #DA1E62;
+    padding-top: .25%;
+    padding-bottom: .25%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.waw-caja {
+    margin-left: 2.5%;
+    width: 95%;
+    overflow: auto;
+    border-left: solid 10px #DA1E62;
+    margin-top: 7.5%;
+}
+
+.waw-texto {
+    margin-left: 5%;
+    float: left;
+    width: 45%;
+    margin-top: 2.5%;
+}
+
+p.waw-datexto {
+    font-family: Arboria;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.waw-image {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+
+picture.waw-pic img {
+    width: 100%;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1025px){
+
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+}
+
+/* Mobile */
+
+@media screen and (max-width: 767px){
+    
+}

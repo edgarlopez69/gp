@@ -1,0 +1,35 @@
+
+@media only screen and (max-width: 768px) 
+{
+  /* For mobile phones: */
+  .col-sm-12
+  {
+  	overflow-x: overlay;
+  }
+
+  .table-container
+  {
+  	overflow-x: overlay;
+  }
+
+  .modal-backdrop
+  {
+  	display: none;
+  }
+
+  button.swotch
+  {
+  	margin-bottom: 65px;
+  }
+
+  #collapseSlider
+  {
+  	overflow-x: overlay;
+  }
+
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+
+}

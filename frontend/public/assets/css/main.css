@@ -1,0 +1,290 @@
+/*  Documento de estilos pricipales */
+/*    Fuentes personalizadas */
+
+
+
+/*  Estilos globales */
+.hs1 {
+    float: left;
+    margin: 2.5%;
+    width: 20%;
+}
+
+.hs1 a picture img {
+    width: 100%;
+}
+
+.hc1 {
+    overflow: auto;
+}
+
+ul.hs2-redes {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    margin-right: 2.5%;
+    width: 30%;
+}
+
+.hs2 {
+    overflow: auto;
+    float: left;
+    width: 75%;
+}
+
+ul.hs2-redes li {
+    float: left;
+    width: 25%;
+}
+
+ul.hs2-redes li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10%;
+}
+
+ul.hs2-redes li a picture img {width: 100%;}
+
+ul.hs2-navegación {
+    clear: both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    min-height: 5vw;
+    /*overflow: hidden;*/
+    background-color: #DA1E62;
+    margin-top: 10%;
+}
+
+ul.hs2-navegación li {
+    float: left;
+    width: 20%;
+}
+
+ul.hs2-navegación li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10%;
+    font-family: Arboria-Book;
+    font-size: 1.25vw;
+    overflow: auto;
+}
+
+.dropdown-menu.show
+{
+    background-color: var(--borCommon);
+    width: 100%;
+}
+
+picture#sesion_image {
+    float: left;
+    width: 15%;
+}
+
+p#sesion_text {
+    float: left;
+    width: 80%;
+    margin-left: 5%;
+}
+
+picture#carrito_image {
+    float: left;
+    width: 15%;
+    margin-left: 40%;
+}
+
+p#carrito_elementos {
+    float: left;
+    margin-top: -10%;
+}
+
+picture#sesion_image img {
+    width: 100%;
+}
+
+picture#carrito_image img {
+    width: 100%;
+}
+
+ul.hs2-navegación li a p {
+    margin: 0;
+    margin-top: 1.5%;
+}
+
+ul.hs2-navegación li:hover {
+    background-color: #ca1c5b;
+}
+
+.contenido {
+    min-height: 60vh;
+    clear: both;
+}
+
+.footer {
+    background-image: url(../../assets/image/global/footer.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 12.5%;
+    overflow: auto;
+    padding-bottom: 2.5%;
+}
+
+.fc1 {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+
+.fc2 {
+    width: 33%;
+    float: left;
+}
+
+.fc3 {
+    width: 33%;
+    float: left;
+}
+
+.fc1l1 {clear: both;overflow: auto;}
+
+.fc1l2 {clear: both;overflow: auto;margin-top: 5%;}
+
+a.whatsapp_alternativo {
+    float: left;
+    width: 17.5%;
+}
+
+p.numeros {
+    float: left;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    font-family: Arboria-Book;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+}
+
+a.email_alternativo picture img {width: 100%;}
+
+a.email_alternativo {
+    width: 17.5%;
+    float: left;
+}
+
+a.email_texto {
+    float: left;
+}
+
+a.whatsapp_alternativo picture img {
+    width: 100%;
+}
+
+a.primer_numero {
+    font-family: Arboria-Book;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+}
+
+a.segundo_numero {
+    font-family: Arboria-Book;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+}
+
+a.email_texto {
+    margin-top: 4%;
+    margin-left: 2.5%;
+    font-family: Arboria-Book;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+}
+
+picture.logo_alternativo img {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.fc3l1 {
+    float: left;
+    overflow: auto;
+    margin-left: 35%;
+    width: 50%;
+}
+
+.fc3l2 {
+    clear: both;
+    margin-top: 17.5%;
+    text-align: center;
+}
+
+p.siguenos {
+    float: left;
+    font-family: Arboria-Book;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+    margin-top: 7.5%;
+}
+
+a.dirección {
+    font-family: Arboria-Book;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+a.facebook_alternativo picture img {
+    width: 30%;
+    margin-left: 10%;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1025px){
+
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .contenido {
+        min-height: 75vh;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 767px){
+    .contenido {
+        min-height: 77.5vh;
+    }
+    p.numeros{
+        margin-top: 7.5%;
+    }
+    a.email_texto{
+        margin-top: 8%;
+    }
+    p.siguenos{
+        margin-top: 15%;
+    }
+
+    a.dropdown-item
+    {
+        padding: 3px;
+    }
+}

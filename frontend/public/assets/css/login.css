@@ -1,0 +1,121 @@
+.login-container {
+	padding: 30vh 0;
+}
+@media screen and (max-width: 992px) {
+	.login-container {
+		padding: 20vh 0;
+	}
+}
+@media screen and (max-width: 576px) {
+	.login-container {
+		padding: 10vh 0;
+	}
+}
+.login-img
+{
+	max-width: 100%;
+
+}
+
+.login-container
+{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.login-input
+{
+	background-color: transparent;
+	border: 0px;
+	width: 89%;
+}
+
+.login-input-container
+{
+	border: 1px solid var(--grayCommon);
+	padding: 1%;
+}
+
+.login-label
+{
+	font-size: 11px;
+	color: var(--borCommon);
+}
+
+.login-input-img
+{
+	width: 10%;
+}
+
+.login-button
+{
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+	color: white;
+	background-color: var(--borCommon);
+	border-radius: 5px;
+	border: 0;
+	padding-top: .5vw;
+	padding-bottom: .5vw;
+	margin-top: .5vw;
+	margin-bottom: .5vw;
+}
+
+.login-parr
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.login-title
+{
+	color: var(--borCommon);
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+	.login-full-section {
+		margin-top: 10vh;
+	}
+	.login-title {
+		font-size: 2em;
+	}
+	.login-button {
+		margin: 15px auto;
+	}
+	.login-parr {
+		font-size: .7em;
+		line-height: 5px;
+	}
+	.login-button#invitado {
+		margin: 0 auto 30px;
+		background: transparent;
+		color: gray;
+		line-height: 5px;
+	}
+}
+
+/* Mobile & Small Tablet */
+@media screen and (max-width: 768px) {
+	/* Form */
+	.login-full-section {
+		margin-top: 10vh;
+		padding-top: 30px;
+	}
+	.login-title {
+		text-align: center;
+	}
+	.login-input-container {
+		display: flex;
+	}
+	
+	/* Imagen */
+	.login-img {
+		width: 100%;	
+		margin: 0 0 30px 15px;
+	}
+}

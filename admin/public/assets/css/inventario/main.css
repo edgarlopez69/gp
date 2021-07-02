@@ -1,0 +1,50 @@
+img.slider-img-small
+{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.new-Product
+{
+	margin-left: 2.5%;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+
+.cat-list-container
+{
+	margin-top: 1vw;
+	
+}
+
+.name-with-button
+{
+	display: inline;
+    width: 85%;
+}
+
+.button-for-cats
+{
+	width: 14%;
+}
+
+.chk-box
+{
+	visibility: visible !important;
+	opacity: 1 !important;
+	position: relative !important;
+}
+
+.chk-box-label
+{
+	margin-left: 15px;
+}
+
+.option-container
+{
+	margin-top: 1vw;
+	padding: .5vw;
+}

@@ -1,0 +1,6 @@
+:root {
+	--blue-glass: #2c466f;
+}
+.bg-blue-glass {
+  background-color: var(--blue-glass);
+}

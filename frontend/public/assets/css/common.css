@@ -1,0 +1,82 @@
+:root {
+  --zulCommon:  rgb(7,72,120);
+  --borCommon: rgb(7,72,120);
+  --grayCommon: rgb(102,102,102);
+  --limeCommon: rgb(140,198,63);
+}
+
+.row
+{
+	width: 100%;
+}
+
+.inner-section
+{
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+}
+
+/* .lower-footer
+{
+	background-color: rgb(73,73,72);
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.lower-footer-img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+
+.section-separer
+{
+	height: 20px;
+	background: rgb(220,220,220);
+	background: linear-gradient(90deg, rgba(220,220,220,1) 0%, rgba(247,247,247,0) 100%);
+}
+
+.front
+{
+	background-image: url("../img/Agregar\ un\ título.png");
+	height: 600px;
+	background-repeat: no-repeat;
+  	background-size: 100%;
+}
+
+img.front-logo
+{
+	margin-top: 4vw;
+	margin-left: 4vw;
+}
+
+.front-content
+{
+	min-height: 60vh;
+}
+
+.front-title
+{
+	color: rgb(2,86,160);
+	/* text-align: center; */
+	font-weight: bold;
+	margin-top: 8vw;
+}
+
+.inner-section
+{
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+img.section-title
+{
+	max-height: 3vw;
+	
+	box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+	margin-bottom:  2vw;
+}

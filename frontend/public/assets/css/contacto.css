@@ -1,0 +1,47 @@
+.contacto-container
+{
+	width: 100%;
+	background-color: rgb(231,227,226);
+	padding: 2vw;
+	border: 2px solid rgb(132,118,115);
+	box-shadow: 1px 5px 5px 0px rgba(132,118,115,0.5);
+}
+
+input.contacto-input
+{
+	border: 1px solid rgb(132,118,115);
+	background-color: rgb(231,227,226);
+
+}
+
+textarea.contacto-input
+{
+	border: 1px solid rgb(132,118,115);
+	background-color: rgb(231,227,226);
+
+}
+
+label.contacto-label
+{
+	color: rgb(0,81,157);
+}
+
+button.contacto-button
+{
+	margin-left: auto;
+	margin-top: 2vw;
+	display: block;
+	background-color: rgb(78,100,139);
+	border: 2px solid rgb(122,136,165);
+	box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.5);
+	color: white;
+	padding-top: .5vw;
+	padding-bottom: .5vw;
+	padding-left: 4vw;
+	padding-right: 4vw;
+}
+
+
+.contacto-icon-container i {
+	font-size: 2rem;
+}

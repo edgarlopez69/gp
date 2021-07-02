@@ -1,0 +1,25 @@
+img.servicio-logo
+{
+	margin-top: 10vw;
+	margin-left: 8vw;
+	max-width: 20vw;
+}
+
+img.servicio-img-inner
+{
+	width: 100%;
+}
+
+b.servicio-title
+{
+	color: rgb(0,81,157);
+}
+
+p.servicio-content
+{
+	text-align: justify;
+}
+
+.aprende-card {
+	background-color: #fff;
+}
